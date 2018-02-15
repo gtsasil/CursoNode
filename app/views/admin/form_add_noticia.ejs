@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+	<html lang="pt-br">
+		<head>
+			<meta charset="utf-8"/>
+			<title>Formul?rio de cadastro de Not?cia</title>
+		</head>
+	<body>
+
+		<h1>Adicionar not?cia</h1>
+		<br>
+
+		<form action="/noticias/salvar" method="post">
+			<label>T?tulo</label>
+			<input type="text" id="titulo" name="titulo" placeholder="T?tulo da not?cia"/>
+			<br />
+			<textarea id="noticia" name="not?cia" rows="5" cols="30"></textarea>
+			<br />
+			<input type="submit" value="Enviar"/>
+
+		</form>
+		<div>
+			<a href = '/' class= 'item'> Go to Home page</a><br>
+			<a href ='/noticia' class ='item'> Go to Noticia</a><br>
+			<a href ='/noticias' class ='item'> Go to Noticias</a>			
+		</div>
+
+	</body>
+</html>
